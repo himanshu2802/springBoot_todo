@@ -11,6 +11,7 @@
 	<groupId>com.in28minutes.rest.webservices</groupId>
 	<artifactId>restful-web-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>restful-web-services</name>
 	<description>Demo project for Spring Boot</description>
 
