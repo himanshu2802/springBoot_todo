@@ -81,9 +81,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				
-				<build>
+				<configuration>
 					<finalName>${project.artifactId}</finalName>
-				</build>	
+				</configuration>	
 			</plugin>
 		</plugins>
 	</build>
