@@ -80,7 +80,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<finalName>${project.artifactId}</finalName>
+				
+				<build>
+					<finalName>${project.artifactId}</finalName>
+				</build>	
 			</plugin>
 		</plugins>
 	</build>
