@@ -9,7 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.in28minutes.rest.webservices</groupId>
-	<artifactId>restful-web-services</artifactId>
+	<artifactId>todoApp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>todoApp</name>
 	<description>Demo project for Spring Boot</description>
@@ -79,6 +80,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<finalName>${project.artifactId}</finalName>
 			</plugin>
 		</plugins>
 	</build>
